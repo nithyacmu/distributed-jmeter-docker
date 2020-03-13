@@ -7,6 +7,7 @@ ENV PATH $JMETER_HOME/bin:$PATH
 
 RUN echo $JMETER_VERSION
 
+ENV DISPLAY :0
 # INSTALL PRE-REQ
 
 RUN apt-get update && \
